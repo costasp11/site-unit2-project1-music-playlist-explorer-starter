@@ -1,0 +1,238 @@
+{
+    "playlists": [
+    {
+        "playlistID": "1",
+        "playlist_name": "Chill Study Beats",
+        "playlist_author": "Lofi Panda",
+        "playlist_art": "assets/img/study.jpg",
+        "likeCount": 120,
+        "description": "Perfect background music for focused study sessions or relaxing moments.",
+        "songs": [
+        {
+            "songID": "s1",
+            "title": "Rainy Day Dreaming",
+            "artist": "Acoustic Serenity",
+            "album": "Nature's Embrace",
+            "duration": "3:45"
+        },
+        {
+            "songID": "s2",
+            "title": "Coffee Shop Jazz",
+            "artist": "Smooth Grooves",
+            "album": "Urban Rhythms",
+            "duration": "4:10"
+        },
+        {
+            "songID": "s3",
+            "title": "Mellow Mornings",
+            "artist": "Zen Sounds",
+            "album": "Morning Meditations",
+            "duration": "2:50"
+        },
+        {
+            "songID": "s4",
+            "title": "Evening Stars",
+            "artist": "Cosmic Melodies",
+            "album": "Night Sky",
+            "duration": "3:20"
+        }
+        ]
+    },
+    {
+        "playlistID": "2",
+        "playlist_name": "Upbeat Coding Mix",
+        "playlist_author": "CodeMaster",
+        "playlist_art": "assets/img/coding.jpg",
+        "likeCount": 230,
+        "description": "Energetic tracks to keep you focused and productive during coding marathons.",
+        "songs": [
+        {
+            "songID": "s5",
+            "title": "Syntax Groove",
+            "artist": "ElectroLogic",
+            "album": "Binary Beats",
+            "duration": "3:15"
+        },
+        {
+            "songID": "s6",
+            "title": "Bug Squashing Beat",
+            "artist": "Debugging Duo",
+            "album": "Compile Time",
+            "duration": "3:55"
+        },
+        {
+            "songID": "s7",
+            "title": "Algorithm Anthem",
+            "artist": "Data Flow",
+            "album": "Network Noise",
+            "duration": "4:00"
+        }
+        ]
+    },
+    {
+        "playlistID": "3",
+        "playlist_name": "Workout Power Jams",
+        "playlist_author": "GymShark",
+        "playlist_art": "assets/img/workout.jpg",
+        "likeCount": 450,
+        "description": "High-energy hits to fuel your workouts and push your limits.",
+        "songs": [
+        {
+            "songID": "s8",
+            "title": "Pump It Up",
+            "artist": "Fitness Fanatics",
+            "album": "Sweat Session",
+            "duration": "3:00"
+        },
+        {
+            "songID": "s9",
+            "title": "Adrenaline Rush",
+            "artist": "The Burnouts",
+            "album": "Repetition",
+            "duration": "3:30"
+        }
+        ]
+    },
+    {
+        "playlistID": "4",
+        "playlist_name": "Evening Relaxation",
+        "playlist_author": "Dream Weaver",
+        "playlist_art": "assets/img/dog.jpg",
+        "likeCount": 85,
+        "description": "Calming tunes for unwinding after a long day.",
+        "songs": [
+        {
+            "songID": "s10",
+            "title": "Sunset Horizon",
+            "artist": "Tranquil Tones",
+            "album": "Quietude",
+            "duration": "4:20"
+        },
+        {
+            "songID": "s11",
+            "title": "Moonlit Melody",
+            "artist": "Nightfall",
+            "album": "Celestial Harmonies",
+            "duration": "3:50"
+        },
+        {
+            "songID": "s12",
+            "title": "Starlight Serenade",
+            "artist": "Cosmic Drift",
+            "album": "Galactic Slumber",
+            "duration": "3:10"
+        }
+        ]
+    },
+    {
+        "playlistID": "5",
+        "playlist_name": "Focus & Productivity",
+        "playlist_author": "Mind Architect",
+        "playlist_art": "assets/img/focus.jpg",
+        "likeCount": 180,
+        "description": "Instrumental tracks designed to enhance concentration and workflow.",
+        "songs": [
+        {
+            "songID": "s13",
+            "title": "Deep Work Flow",
+            "artist": "Cerebral Sounds",
+            "album": "Cognitive Rhythms",
+            "duration": "4:00"
+        },
+        {
+            "songID": "s14",
+            "title": "Think Space",
+            "artist": "Synapse Sync",
+            "album": "Neural Beats",
+            "duration": "3:40"
+        },
+        {
+            "songID": "s15",
+            "title": "Problem Solver",
+            "artist": "Logic Loop",
+            "album": "Analytical Acoustics",
+            "duration": "3:25"
+        }
+        ]
+    },
+    {
+        "playlistID": "6",
+        "playlist_name": "Travel Vibes",
+        "playlist_author": "Wanderlust Tunes",
+        "playlist_art": "assets/img/travel.jpg",
+        "likeCount": 310,
+        "description": "Upbeat and adventurous tracks for road trips and exploration.",
+        "songs": [
+        {
+            "songID": "s16",
+            "title": "Open Road Anthem",
+            "artist": "Horizon Drive",
+            "album": "Journey's End",
+            "duration": "3:30"
+        },
+        {
+            "songID": "s17",
+            "title": "Passport Pulse",
+            "artist": "Global Grooves",
+            "album": "World Tour",
+            "duration": "3:55"
+        }
+        ]
+    },
+    {
+        "playlistID": "7",
+        "playlist_name": "Morning Motivation",
+        "playlist_author": "Sunrise Beats",
+        "playlist_art": "assets/img/morning.jpg",
+        "likeCount": 260,
+        "description": "Energetic and positive songs to kickstart your day.",
+        "songs": [
+        {
+            "songID": "s18",
+            "title": "New Day Dawn",
+            "artist": "Rise & Shine",
+            "album": "Fresh Start",
+            "duration": "3:05"
+        },
+        {
+            "songID": "s19",
+            "title": "Positive Vibes Only",
+            "artist": "Optimistic Ohm",
+            "album": "Good Mood",
+            "duration": "3:15"
+        },
+        {
+            "songID": "s20",
+            "title": "Get Up & Go",
+            "artist": "Action Flow",
+            "album": "Daily Drive",
+            "duration": "2:40"
+        }
+        ]
+    },
+    {
+        "playlistID": "8",
+        "playlist_name": "Gaming Soundtrack",
+        "playlist_author": "Pixel Play",
+        "playlist_art": "assets/img/gaming.jpg",
+        "likeCount": 500,
+        "description": "Epic scores and fast-paced tracks for immersive gaming sessions.",
+        "songs": [
+        {
+            "songID": "s21",
+            "title": "Level Up Theme",
+            "artist": "Quest Quavers",
+            "album": "Victory Lane",
+            "duration": "2:30"
+        },
+        {
+            "songID": "s22",
+            "title": "Boss Battle Bash",
+            "artist": "Final Frequencies",
+            "album": "Conqueror's Cut",
+            "duration": "4:10"
+        }
+        ]
+    }
+    ]
+}

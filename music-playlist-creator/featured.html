@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Music Playlist Explorer</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    
+    <link rel="stylesheet" href="featured.css">
+</head>
+<body>
+    <header class = "site-header">
+        <div class = "header-container">
+            <h1>Music Playlist Explorer</h1>
+            <nav> 
+                <ul>
+                    <li><a href="featured.html" id = "nav-featured" class = "nav-link">Featured</a></li>
+                    <li><a href="index.html" id = "nav-all" class = "nav-link">All</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main> 
+        <div class = "main-container">
+            <h2>Featured Playlists</h2>
+            <div class = "playlist-content">
+                <div id = "featured-playlist">
+                    <!-- Featured playlist will be dynamically inserted here -->
+                </div>
+                <div id = "featured-songs">
+                    <div class="song-item">
+                        <img src="assets/img/song.png" alt="Song Image" class="song-image">
+                        <div class="song-info">
+                            <h4 class="song-title">Song Title</h4>
+                            <p class="song-artist">Artist Name</p>
+                            <p class="song-album">Album Name</p>
+                            <p class="song-duration">3:45</p>  
+                        </div>
+                    </div>
+                    <div class="song-item">
+                        <img src="assets/img/song.png" alt="Song Image" class="song-image">
+                        <div class="song-info">
+                            <h4 class="song-title">Another Song</h4>
+                            <p class="song-artist">Another Artist</p>
+                            <p class="song-album">Another Album</p>
+                            <p class="song-duration">4:10</p>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+    </main>
+
+    <footer>
+        </footer>
+
+    <script src="data/data.js"></script>
+    <script src="featured.js"></script>
+
+
+
+</body>
+</html>
