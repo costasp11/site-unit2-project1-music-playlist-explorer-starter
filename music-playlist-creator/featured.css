@@ -2,14 +2,26 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #373535;
 }
 
 .site-header {
-    background-color: #2c2b2b;
-    color: white;
+    background-color: #373535; /* Dark charcoal/grey */
     padding: 15px 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Stronger, more spread out shadow */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.site-header h1{
+    color: rgb(179, 186, 247); /* Light blue-purple */
+    font-size: 2.2 em;
+    font-weight: bold;
+    text-shadow:
+        0 0 10px rgba(179, 186, 247, 0.7), /* Lighter glow */
+        0 0 20px rgba(179, 186, 247, 0.5), /* Medium glow */
+        0 0 2px rgba(179, 186, 247, 0.3), /* Wider, softer glow */
+        0 2px 5px rgba(0, 0, 0, 0.6); /* A subtle dark shadow for depth/lift */
 }
 
 .header-container {
@@ -34,7 +46,7 @@ nav ul {
 }
 
 nav a {
-    color: white;
+    color: rgb(179, 186, 247);
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
@@ -45,14 +57,17 @@ nav a:hover {
     background-color: #4a4a4a;
 }
 
+
+
+/* --- Main Content Layout --- */
 .main-container {
-    max-width: 80%;
+    max-width:  93%;
     margin: 20px auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(198, 202, 241);
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    border: #8e8e8e 1px solid;
-    border-radius: 8px;
+    border-radius: 8px; /* Added for a softer look */
+    padding-bottom: 250px;
 }
 
 .main-container h2 {
@@ -60,6 +75,9 @@ nav a:hover {
     color: #333;
     text-align: center; /* Center the main heading */
     margin-bottom: 20px;
+    padding: 40px 40px;
+    font-size: 2.1em; 
+    font-weight: bold;
 }
 
 /* New styles for the two-column layout */
@@ -71,22 +89,33 @@ nav a:hover {
 #featured-playlist {
     flex: 1; /* Allows this column to grow and shrink */
     padding: 20px;
-    background-color: #f0f0f0; /* Light background for the featured playlist */
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
     border-radius: 8px;
     text-align: center; /* Center content within the playlist card */
+    box-shadow: 12px 12px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
+
+
 #featured-playlist .featured-image {
-    width: 100%; /* Make image responsive within its container */
-    max-width: 250px; /* Limit max size */
+    width: 600px;
+    height: 500px;
     border-radius: 8px;
     margin-bottom: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    object-fit: cover;
 }
 
 #featured-playlist h3 {
-    color: #333;
+    color: #27487abe;
     margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.featured-playlist-card p {
+    color: #555;
 }
 
 #featured-songs {
@@ -96,6 +125,7 @@ nav a:hover {
     gap: 15px; /* Space between individual song items */
     padding-left: 20px; /* Add some padding to the left of the songs list */
     border-left: 1px solid #eee; /* A subtle separator */
+    
 }
 
 .song-item {
@@ -106,6 +136,7 @@ nav a:hover {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Lighter shadow for song items */
     transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effects */
+    box-shadow: 12px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
 .song-item:hover {
@@ -130,7 +161,7 @@ nav a:hover {
 
 .song-info h4 {
     margin: 0 0 5px 0;
-    color: #333;
+    color: #27487abe;
 }
 
 .song-info p {

@@ -4,7 +4,7 @@
         "playlistID": "1",
         "playlist_name": "Chill Study Beats",
         "playlist_author": "Lofi Panda",
-        "playlist_art": "assets/img/study.jpg",
+        "playlist_art": "https://s.yimg.com/ny/api/res/1.2/u0yUyppt2SmEfuSWHRDTNQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD0xMzQz/https://media.zenfs.com/en/one37pm_956/945cb857460591da1840c1097a7f8917",
         "likeCount": 120,
         "description": "Perfect background music for focused study sessions or relaxing moments.",
         "songs": [
@@ -13,28 +13,40 @@
             "title": "Rainy Day Dreaming",
             "artist": "Acoustic Serenity",
             "album": "Nature's Embrace",
-            "duration": "3:45"
+            "duration": "3:45",
+            "image": "https://picsum.photos/id/102/80/80"
         },
         {
             "songID": "s2",
             "title": "Coffee Shop Jazz",
             "artist": "Smooth Grooves",
             "album": "Urban Rhythms",
-            "duration": "4:10"
+            "duration": "4:10",
+            "image": "https://picsum.photos/id/103/80/80"
         },
         {
             "songID": "s3",
             "title": "Mellow Mornings",
             "artist": "Zen Sounds",
             "album": "Morning Meditations",
-            "duration": "2:50"
+            "duration": "2:50",
+            "image": "https://picsum.photos/id/104/80/80"
         },
         {
             "songID": "s4",
             "title": "Evening Stars",
             "artist": "Cosmic Melodies",
             "album": "Night Sky",
-            "duration": "3:20"
+            "duration": "3:20",
+            "image": "https://i.discogs.com/SZqUqJDhvfaIvTl0SEHbPIZtTFWn_YhyDegRIv1O01E/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMDk2/MTY3LTE3MTA2MjE0/MjgtMTgyNC5qcGVn.jpeg"
+        },
+        {
+            "songID": "s23",
+            "title": "Soft Rain and Book",
+            "artist": "Whispering Winds",
+            "album": "Quietude",
+            "duration": "4:15",
+            "image": "https://i.discogs.com/SZqUqJDhvfaIvTl0SEHbPIZtTFWn_YhyDegRIv1O01E/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMDk2/MTY3LTE3MTA2MjE0/MjgtMTgyNC5qcGVn.jpeg"
         }
         ]
     },
@@ -42,7 +54,7 @@
         "playlistID": "2",
         "playlist_name": "Upbeat Coding Mix",
         "playlist_author": "CodeMaster",
-        "playlist_art": "assets/img/coding.jpg",
+        "playlist_art": "https://townsquare.media/site/812/files/2023/03/attachment-nothing-was-the-same.jpg?w=780&q=75",
         "likeCount": 230,
         "description": "Energetic tracks to keep you focused and productive during coding marathons.",
         "songs": [
@@ -51,21 +63,32 @@
             "title": "Syntax Groove",
             "artist": "ElectroLogic",
             "album": "Binary Beats",
-            "duration": "3:15"
+            "duration": "3:15",
+            "image": "https://picsum.photos/id/106/80/80"
         },
         {
             "songID": "s6",
             "title": "Bug Squashing Beat",
             "artist": "Debugging Duo",
             "album": "Compile Time",
-            "duration": "3:55"
+            "duration": "3:55",
+            "image": "https://picsum.photos/id/107/80/80"
         },
         {
             "songID": "s7",
             "title": "Algorithm Anthem",
             "artist": "Data Flow",
             "album": "Network Noise",
-            "duration": "4:00"
+            "duration": "4:00",
+            "image": "https://picsum.photos/id/108/80/80"
+        },
+        {
+            "songID": "s24",
+            "title": "Code Symphony",
+            "artist": "Digital Harmonics",
+            "album": "Productivity Flow",
+            "duration": "3:40",
+            "image": "https://wshoccidentalist.com/wp-content/uploads/2022/12/my-take-on-her-loss-album-cover-v0-77iscgo2ttx91.webp"
         }
         ]
     },
@@ -73,7 +96,7 @@
         "playlistID": "3",
         "playlist_name": "Workout Power Jams",
         "playlist_author": "GymShark",
-        "playlist_art": "assets/img/workout.jpg",
+        "playlist_art": "https://www.rollingstone.com/wp-content/uploads/2022/05/Travis-Scott-Astroworld-2018.jpg?w=800",
         "likeCount": 450,
         "description": "High-energy hits to fuel your workouts and push your limits.",
         "songs": [
@@ -82,14 +105,24 @@
             "title": "Pump It Up",
             "artist": "Fitness Fanatics",
             "album": "Sweat Session",
-            "duration": "3:00"
+            "duration": "3:00",
+            "image": "https://picsum.photos/id/109/80/80"
         },
         {
             "songID": "s9",
             "title": "Adrenaline Rush",
             "artist": "The Burnouts",
             "album": "Repetition",
-            "duration": "3:30"
+            "duration": "3:30",
+            "image": "https://picsum.photos/id/110/80/80"
+        },
+        {
+            "songID": "s25",
+            "title": "Beast Mode Activate",
+            "artist": "Iron Kings",
+            "album": "Max Effort",
+            "duration": "3:10",
+            "image": "https://townsquare.media/site/812/files/2020/10/savage-mode-2-chopped-and-screwed-header.jpg?w=780&q=75"
         }
         ]
     },
@@ -97,7 +130,7 @@
         "playlistID": "4",
         "playlist_name": "Evening Relaxation",
         "playlist_author": "Dream Weaver",
-        "playlist_art": "assets/img/dog.jpg",
+        "playlist_art": "https://townsquare.media/site/812/files/2018/12/21-savage-2.jpg?w=1080&q=75",
         "likeCount": 85,
         "description": "Calming tunes for unwinding after a long day.",
         "songs": [
@@ -106,21 +139,32 @@
             "title": "Sunset Horizon",
             "artist": "Tranquil Tones",
             "album": "Quietude",
-            "duration": "4:20"
+            "duration": "4:20",
+            "image": "https://picsum.photos/id/111/80/80"
         },
         {
             "songID": "s11",
             "title": "Moonlit Melody",
             "artist": "Nightfall",
             "album": "Celestial Harmonies",
-            "duration": "3:50"
+            "duration": "3:50",
+            "image": "https://picsum.photos/id/112/80/80"
         },
         {
             "songID": "s12",
             "title": "Starlight Serenade",
             "artist": "Cosmic Drift",
             "album": "Galactic Slumber",
-            "duration": "3:10"
+            "duration": "3:10",
+            "image": "https://picsum.photos/id/113/80/80"
+        },
+        {
+            "songID": "s26",
+            "title": "Gentle Breeze",
+            "artist": "Soul Soothe",
+            "album": "Calm Depths",
+            "duration": "4:50",
+            "image": "https://i.pinimg.com/736x/e7/72/99/e772991a9d87ab3d05ccddca85979c6f.jpg"
         }
         ]
     },
@@ -128,7 +172,7 @@
         "playlistID": "5",
         "playlist_name": "Focus & Productivity",
         "playlist_author": "Mind Architect",
-        "playlist_art": "assets/img/focus.jpg",
+        "playlist_art": "https://i.ebayimg.com/images/g/vNcAAOSwa8Rksb0U/s-l1200.jpg",
         "likeCount": 180,
         "description": "Instrumental tracks designed to enhance concentration and workflow.",
         "songs": [
@@ -137,21 +181,32 @@
             "title": "Deep Work Flow",
             "artist": "Cerebral Sounds",
             "album": "Cognitive Rhythms",
-            "duration": "4:00"
+            "duration": "4:00",
+            "image": "https://picsum.photos/id/114/80/80"
         },
         {
             "songID": "s14",
             "title": "Think Space",
             "artist": "Synapse Sync",
             "album": "Neural Beats",
-            "duration": "3:40"
+            "duration": "3:40",
+            "image": "https://picsum.photos/id/115/80/80"
         },
         {
             "songID": "s15",
             "title": "Problem Solver",
             "artist": "Logic Loop",
             "album": "Analytical Acoustics",
-            "duration": "3:25"
+            "duration": "3:25",
+            "image": "https://picsum.photos/id/116/80/80"
+        },
+        {
+            "songID": "s27",
+            "title": "Mindful Musings",
+            "artist": "Creative Current",
+            "album": "Inspiration Hub",
+            "duration": "3:55",
+            "image": "https://admin.itsnicethat.com/images/t1O94M2OsVbjPaC4aFZHOOKePvE=/69898/width-1440/598196e77fa44cb08200a23e.jpg"
         }
         ]
     },
@@ -159,7 +214,7 @@
         "playlistID": "6",
         "playlist_name": "Travel Vibes",
         "playlist_author": "Wanderlust Tunes",
-        "playlist_art": "assets/img/travel.jpg",
+        "playlist_art": "https://townsquare.media/site/625/files/2017/02/Future-Future-album-cover-art.jpg?w=780&q=75",
         "likeCount": 310,
         "description": "Upbeat and adventurous tracks for road trips and exploration.",
         "songs": [
@@ -168,14 +223,24 @@
             "title": "Open Road Anthem",
             "artist": "Horizon Drive",
             "album": "Journey's End",
-            "duration": "3:30"
+            "duration": "3:30",
+            "image": "https://picsum.photos/id/117/80/80"
         },
         {
             "songID": "s17",
             "title": "Passport Pulse",
             "artist": "Global Grooves",
             "album": "World Tour",
-            "duration": "3:55"
+            "duration": "3:55",
+            "image": "https://picsum.photos/id/118/80/80"
+        },
+        {
+            "songID": "s28",
+            "title": "Voyage Dream",
+            "artist": "Explorer's Guild",
+            "album": "Distant Lands",
+            "duration": "4:20",
+            "image": "https://preview.redd.it/meaning-behind-the-swimming-album-cover-v0-a6cmvbim062d1.jpg?width=640&crop=smart&auto=webp&s=d1d99577d17e49cd1c5a520f3ed6ba3b27e9780a"
         }
         ]
     },
@@ -183,7 +248,7 @@
         "playlistID": "7",
         "playlist_name": "Morning Motivation",
         "playlist_author": "Sunrise Beats",
-        "playlist_art": "assets/img/morning.jpg",
+        "playlist_art": "https://upload.wikimedia.org/wikipedia/en/2/28/Metro_Boomin_%E2%80%93_Not_All_Heroes_Wear_Capes.png",
         "likeCount": 260,
         "description": "Energetic and positive songs to kickstart your day.",
         "songs": [
@@ -192,21 +257,32 @@
             "title": "New Day Dawn",
             "artist": "Rise & Shine",
             "album": "Fresh Start",
-            "duration": "3:05"
+            "duration": "3:05",
+            "image": "https://picsum.photos/id/119/80/80"
         },
         {
             "songID": "s19",
             "title": "Positive Vibes Only",
             "artist": "Optimistic Ohm",
             "album": "Good Mood",
-            "duration": "3:15"
+            "duration": "3:15",
+            "image": "https://picsum.photos/id/120/80/80"
         },
         {
             "songID": "s20",
             "title": "Get Up & Go",
             "artist": "Action Flow",
             "album": "Daily Drive",
-            "duration": "2:40"
+            "duration": "2:40",
+            "image": "https://picsum.photos/id/121/80/80"
+        },
+        {
+            "songID": "s29",
+            "title": "Sunrise Serenity",
+            "artist": "Golden Hour",
+            "album": "Awakening",
+            "duration": "3:30",
+            "image": "https://m.media-amazon.com/images/I/71Dognt3-pL._UF1000,1000_QL80_.jpg"
         }
         ]
     },
@@ -214,7 +290,7 @@
         "playlistID": "8",
         "playlist_name": "Gaming Soundtrack",
         "playlist_author": "Pixel Play",
-        "playlist_art": "assets/img/gaming.jpg",
+        "playlist_art": "https://smremarker.com/wp-content/uploads/2024/04/we-dont-trust-you-album-cover-v0-ae8ddjkpacpc1-cmykbrightened.jpg",
         "likeCount": 500,
         "description": "Epic scores and fast-paced tracks for immersive gaming sessions.",
         "songs": [
@@ -223,14 +299,92 @@
             "title": "Level Up Theme",
             "artist": "Quest Quavers",
             "album": "Victory Lane",
-            "duration": "2:30"
+            "duration": "2:30",
+            "image": "https://picsum.photos/id/122/80/80"
         },
         {
             "songID": "s22",
             "title": "Boss Battle Bash",
             "artist": "Final Frequencies",
             "album": "Conqueror's Cut",
-            "duration": "4:10"
+            "duration": "4:10",
+            "image": "https://picsum.photos/id/123/80/80"
+        },
+        {
+            "songID": "s30",
+            "title": "Retro Arcade",
+            "artist": "Byte Beat",
+            "album": "8-Bit Dreams",
+            "duration": "2:58",
+            "image": "https://bloximages.newyork1.vip.townnews.com/dailynebraskan.com/content/tncms/assets/v3/editorial/b/03/b033ca16-19b1-11ec-ab5d-f320e7a40323/6147e388dbe32.image.png?resize=400%2C267"
+        }
+        ]
+    },
+    {
+        "playlistID": "9",
+        "playlist_name": "Deep House Grooves",
+        "playlist_author": "House Head",
+        "playlist_art": "https://images.squarespace-cdn.com/content/v1/5b7e9b37ec4eb7238e6d6003/80a1b4e7-b9f5-41f7-a5ed-d53e5e72d50a/trash-talk-front-flip-die-lit-playboi-carti-ochiuk-the-croft-bristol.jpg",
+        "likeCount": 380,
+        "description": "Smooth, soulful, and rhythmic house tracks for endless dancing.",
+        "songs": [
+        {
+            "songID": "s31",
+            "title": "Midnight Pulse",
+            "artist": "Deep Sensations",
+            "album": "Club Vibrations",
+            "duration": "5:30",
+            "image": "https://picsum.photos/id/124/80/80"
+        },
+        {
+            "songID": "s32",
+            "title": "Elevate Your Mind",
+            "artist": "Groove Architect",
+            "album": "Rhythmic Journeys",
+            "duration": "4:55",
+            "image": "https://picsum.photos/id/125/80/80"
+        },
+        {
+            "songID": "s33",
+            "title": "Lost in the Beat",
+            "artist": "Echo Chamber",
+            "album": "Hypnotic Sounds",
+            "duration": "6:10",
+            "image": "https://picsum.photos/id/126/80/80"
+        }
+        ]
+    },
+    {
+        "playlistID": "10",
+        "playlist_name": "Acoustic Fireplace",
+        "playlist_author": "Cozy Tunes",
+        "playlist_art": "https://i.ebayimg.com/images/g/QDEAAOSwddRksb0V/s-l1200.jpg",
+        "likeCount": 150,
+        "description": "Warm and inviting acoustic melodies perfect for a cozy evening by the fire.",
+        "songs": [
+        {
+            "songID": "s34",
+            "title": "Flickering Flames",
+            "artist": "Whispering Chords",
+            "album": "Winter Evenings",
+            "duration": "3:20",
+            "image": "https://picsum.photos/id/127/80/80"
+        },
+        {
+            "songID": "s35",
+            "title": "Cabin Comfort",
+            "artist": "Forest Harmonies",
+            "album": "Rustic Retreat",
+            "duration": "4:00",
+            "image": "https://picsum.photos/id/128/80/80"
+        },
+        {
+            "songID": "s36",
+            "title": "Starry Night Strums",
+            "artist": "Dreamy Melodies",
+            "album": "Celestial Strums",
+            "duration": "3:45",
+            "image": "https://picsum.photos/id/129/80/80"
         }
         ]
     }

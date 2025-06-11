@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const songItem = document.createElement('div');
                 songItem.classList.add('song-item');
                 songItem.innerHTML = `
-                    <img src="assets/img/song.png" alt="${song.title} thumbnail" class="song-thumbnail">
+                    <img src="${song.image}" alt="${song.title} thumbnail" class="song-thumbnail">
                     <div class="song-details">
                         <p class="song-title">${song.title}</p>
                         <p class="artist-album">${song.artist} &bull; ${song.album || 'Unknown Album'}</p>
@@ -153,7 +153,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const shuffledSongsArray = [...currentPlaylistBeingViewed.songs].sort(() => Math.random() - 0.5);
 
             // Update the actual playlist's songs array with the shuffled order
-            // This ensures if you close and reopen modal, it might retain the new order
             currentPlaylistBeingViewed.songs = shuffledSongsArray;
 
             // Re-render the songs in the modal using the new shuffled order
@@ -164,17 +163,42 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Implement Shuffle Button Click ---
     shuffleButton.addEventListener('click', shuffleSongs); // Attach the shuffleSongs function directly
 
-    // Close modal when close button is clicked (remains the same)
+    // Close modal when close button is clicked 
     closeButton.onclick = function() {
         modal.style.display = 'none';
     }
 
-    // Close modal when outside the modal content is clicked (remains the same)
+    // Close modal when outside the modal content is clicked 
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = 'none';
         }
     }
+
+    // Search functionality
+    function handleSearch(){
+        const searchTerm = document.getElementById('nav-search').value.toLowerCase(); // the input of the user
+        let filteredPlaylists = [];
+
+        if (searchTerm.trim() === '') {
+            filteredPlaylists = window.allPlaylistsData; // if search is empty, show all playlists
+        }
+        else {
+            filteredPlaylists = window.allPlaylistsData.filter(playlist => { // filter playlists based on search term
+                return playlist.playlist_name.toLowerCase().includes(searchTerm) ||
+                       playlist.playlist_author.toLowerCase().includes(searchTerm) ||
+                       (playlist.description && playlist.description.toLowerCase().includes(searchTerm));
+            });
+        }
+        renderPlaylists(filteredPlaylists);
+    }
+
+    // Attach search event listener
+    const searchInput = document.getElementById('nav-search');
+    searchInput.addEventListener('input', handleSearch); // each time the user types in the search input, handleSearch is called
+
+
+
 });
 
 
